@@ -36,3 +36,84 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  font-family: 'Arial', sans-serif; /* Adjust font family as needed */
+}
+
+.bg-light-bg {
+  background-color: #f4f4f4; /* Light background color */
+}
+
+.text-dark-text {
+  color: #333; /* Dark text color */
+}
+
+.bg-light-form {
+  background-color: #ffffff; /* Light form background color */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Updated light colors for messages */
+.bg-light-me {
+  background-color: #c1e6ff; /* Light blue for 'Me' messages */
+}
+
+.bg-light-other {
+  background-color: #e5e5e5; /* Light gray for 'Other' messages */
+}
+
+
+.messages-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  overflow-y: auto;
+  max-height: 300px; /* Adjust as needed */
+  padding: 10px;
+}
+
+.message {
+  max-width: 80%;
+  padding: 10px;
+  word-break: break-word;
+}
+
+.message-me {
+  margin-left: auto;
+  background-color: #c1e6ff; /* Light blue for 'Me' messages */
+}
+
+.message-other {
+  margin-right: auto;
+  background-color: #05b9aa; /* Light gray for 'Other' messages */
+}
+
+/* Adjust the Paper component's padding and margin */
+.MuiPaper-root {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.messages-container {
+  display: flex;
+  flex-direction: column-reverse; /* Newest messages at the bottom */
+  overflow-y: auto;
+  max-height: 400px; /* Adjust this value based on your needs */
+  gap: 8px;
+  padding: 10px;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 80%;
+  padding: 10px;
+  word-break: break-word;
+}
+
