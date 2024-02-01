@@ -65,7 +65,7 @@ ul {
 }
 
 .bg-light-other {
-  background-color: #e5e5e5; /* Light gray for 'Other' messages */
+  background-color: #64fcfc; /* Light gray for 'Other' messages */
 }
 
 
@@ -78,22 +78,6 @@ ul {
   padding: 10px;
 }
 
-.message {
-  max-width: 80%;
-  padding: 10px;
-  word-break: break-word;
-}
-
-.message-me {
-  margin-left: auto;
-  background-color: #c1e6ff; /* Light blue for 'Me' messages */
-}
-
-.message-other {
-  margin-right: auto;
-  background-color: #05b9aa; /* Light gray for 'Other' messages */
-}
-
 /* Adjust the Paper component's padding and margin */
 .MuiPaper-root {
   padding: 10px;
@@ -103,7 +87,7 @@ ul {
   display: flex;
   flex-direction: column-reverse; /* Newest messages at the bottom */
   overflow-y: auto;
-  max-height: 400px; /* Adjust this value based on your needs */
+  max-height: 500px; /* Adjust this value based on your needs */
   gap: 8px;
   padding: 10px;
 }

@@ -55,7 +55,7 @@ export default function App() {
           {messages.map((message, index) => (
             <Paper 
               key={index} 
-              className={`my-2 p-2 table text-sm rounded-md ${message.from === "Me" ? "bg-sky-700 ml-auto" : "bg-black"
+              className={`my-2 p-2 table text-sm rounded-md ${message.from === "Me" ? "bg-sky-700 ml-auto" : "bg-light-other"
             }`}
             >
               <div className="message-content">
